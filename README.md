@@ -11,6 +11,7 @@ https://github.com/scoursen/django-softdelete
 
 # Results
 
+```
 ❯ ./manage.py makemigrations
 Migrations for 'myapp':
   myapp/migrations/0001_initial.py
@@ -132,3 +133,4 @@ Execution time : 356.741077677
 0:04:57.862 - End Program
 Elapsed time: 0:04:57.321
 ========================================
+```
