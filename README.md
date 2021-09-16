@@ -50,7 +50,7 @@ Running migrations:
   Applying softdelete.0002_auto_20170912_0537... OK
 
 
-############################################### TEST SAFEDELETE with 1K records
+---- TEST SAFEDELETE with 1K records
 ❯ python manage.py runscript test_safedelete
 ========================================
 0:00:00.591 - Start Program
@@ -73,7 +73,7 @@ Elapsed time: 0:00:14.170
 ========================================
 
 
-############################################### TEST SOFTDELETE with 1K records
+----  TEST SOFTDELETE with 1K records
 
 ❯ python manage.py runscript test_softdelete
 ========================================
@@ -109,7 +109,7 @@ Elapsed time: 0:00:30.163
 ========================================
 
 
-############################################### TEST SAFEDELETE with 10K records
+----  TEST SAFEDELETE with 10K records
 
 
 ❯ python manage.py runscript test_safedelete
